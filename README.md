@@ -1,12 +1,20 @@
-# IMDB Top 250 TV Series Rated by Episode's Average
+# IMDB Top 250 TV Series and Episodes Ratings
 This code will scrap from the IMDB website the ratings from all episodes from all the seasons available in the [250 Top Rated TV Shows](https://www.imdb.com/chart/toptv). The output are two .csv files, one with all 250 Top TV Shows and other with the ratings of all episodes. For a more up to date list, you can run this code on Google Colab: https://colab.research.google.com/drive/1yvCowozXy5UebODDo462obpeKeGIVi1b
 
+# Data Analysis
+## Best Series based on Average of Episodes
 One example of application of this dataset,  is to rank all TV Shows based on the episode's average rating ([full list](https://github.com/WittmannF/imdb-tv-ratings/blob/master/all-series-ep-average.csv)):
 
 ![Screen Shot 2019-05-12 at 22 28 47](https://user-images.githubusercontent.com/5733246/57591035-c6140d80-7505-11e9-9f43-ba59f868988e.png)
 
+This can provide an alternative metric for chosing the best TV Shows. For Example, the top rated TV Show is Planet Earth II, with a rating of 9.5, while the episode's rating average is 7.1 (which indicates it might not really be a highly rated serie). 
 
-This can provide an alternative metric for chosing the best TV Shows. For Example, the top rated TV Show is Planet Earth II, with a rating of 9.5, while the episode's rating average is 7.1.
+## Best First Episodes
+Here's a list of the best first episodes ([full list](https://colab.research.google.com/drive/1zBJ461f6jWpqhFM2euLWnGJauU7fxlRH)):
+
+![Screen Shot 2019-05-13 at 13 26 30](https://user-images.githubusercontent.com/5733246/57638108-73793680-7583-11e9-8015-83682b49b16d.png)
+
+
 
 Example of Log:
 ```
