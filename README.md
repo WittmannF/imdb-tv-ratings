@@ -3,7 +3,7 @@ This code will scrap from the IMDB website the ratings from all episodes from al
 
 # Data Analysis
 ## Best Series based on Average of Episodes
-One example of application of this dataset,  is to rank all TV Shows based on the episode's average rating ([full list](https://github.com/WittmannF/imdb-tv-ratings/blob/master/all-series-ep-average.csv)):
+One example of application of this dataset,  is to rank all TV Shows based on the episode's average rating ([full list](https://github.com/WittmannF/imdb-tv-ratings/blob/master/all-series-ep-average.csv)) (_NOTE: You might considering choosing only series with rating count higher than 50000 since they provide a better statistical significance of each episode's rating_):
 
 ![Screen Shot 2019-05-12 at 22 28 47](https://user-images.githubusercontent.com/5733246/57591035-c6140d80-7505-11e9-9f43-ba59f868988e.png)
 
