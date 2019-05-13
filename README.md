@@ -1,4 +1,4 @@
-# IMDB Top 250 TV Episodes Rating Database
+# IMDB Top 250 TV Series Rated by Episode's Average
 This code will scrap from the IMDB website the ratings from all episodes from all the seasons available in the [250 Top Rated TV Shows](https://www.imdb.com/chart/toptv). The output are two .csv files, one with all 250 Top TV Shows and other with the ratings of all episodes. For a more up to date list, you can run the code on Google Colab: 
 
 One example of application of this dataset,  is to rank all TV Shows based on the episode's average rating ([full list](https://github.com/WittmannF/imdb-tv-ratings/blob/master/all-series-ep-average.csv)):
